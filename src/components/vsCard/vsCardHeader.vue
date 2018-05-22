@@ -8,9 +8,6 @@
       'border-left':!vsFill?'3px solid':'none',
       'border-top-left-radius':!vsFill?'5px':'inherit'
     }">
-      <div v-if="this.$slots.default" class="card-icon">
-        <slot></slot>
-      </div>
       <div v-if="vsIcon" class="card-icon">
         <i class="material-icons">{{vsIcon}}</i>
       </div>
@@ -76,8 +73,8 @@ export default {
       display flex
       justify-content center
       align-items center
-      margin 10px
       i
+        margin 10px
         font-size 1.5rem
         margin-right 0px
     .card-titles
