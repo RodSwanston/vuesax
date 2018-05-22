@@ -74,8 +74,8 @@ export default {
       justify-content center
       align-items center
       i
-        margin 10px
         font-size 1.5rem
+        margin 10px
         margin-right 0px
     .card-titles
       width 100%
